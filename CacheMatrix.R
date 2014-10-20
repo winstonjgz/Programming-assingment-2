@@ -22,7 +22,6 @@ message("getting cached data")
 return(m)
 }
 thematrix <- x$get()
-m <- det(thematrix, ...)
 x$setmatrix(m)
 m
 }
